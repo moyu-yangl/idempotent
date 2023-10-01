@@ -11,6 +11,11 @@ public class IdempotentHandlerFactory {
         IdempotentTime range = idempotent.range();
         IdempotentScope[] scope = idempotent.scope();
         IdempotentType type = idempotent.type();
+        switch (range) {
+
+        }
+
+
         return null;
     }
 }

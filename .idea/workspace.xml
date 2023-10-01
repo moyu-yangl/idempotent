@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/AbstractIdempotentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/wrapper/IdempotentWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +35,13 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -71,12 +67,16 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
@@ -110,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1696085560617</updated>
       <workItem from="1696085561784" duration="172000" />
-      <workItem from="1696126455682" duration="9967000" />
+      <workItem from="1696126455682" duration="13839000" />
     </task>
     <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
       <created>1696130371983</created>
@@ -119,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696130371983</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块">
+      <created>1696144795534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696144795534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,18 +157,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(idempotent-api): 完成了注解、枚举类的开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-api): 完成了注解、枚举类的开发" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
