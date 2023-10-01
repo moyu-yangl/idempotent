@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="idempotent-core" />
         <module name="idempotent-api" />
+        <module name="idempotent-test" />
       </profile>
     </annotationProcessing>
   </component>

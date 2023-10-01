@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/annotation/Idempotent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/enums/IdempotentScope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/enums/IdempotentTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/enums/IdempotentType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/exception/IdempotentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/AbstractIdempotentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/wrapper/IdempotentWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +30,8 @@
       <list>
         <option value="AnnotationType" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -36,6 +39,11 @@
     <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -57,9 +65,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,6 +81,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="idempotent-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yang.idempotent.test.TestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.yang.idempotent.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.TestApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -77,8 +110,16 @@
       <option name="presentableId" value="Default" />
       <updated>1696085560617</updated>
       <workItem from="1696085561784" duration="172000" />
-      <workItem from="1696126455682" duration="3813000" />
+      <workItem from="1696126455682" duration="9967000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
+      <created>1696130371983</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696130371983</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,7 +136,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feature" />
+                        <option value="feater-core" />
                       </list>
                     </value>
                   </entry>
@@ -106,6 +147,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(idempotent-api): 完成了注解、枚举类的开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-api): 完成了注解、枚举类的开发" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,9 +1,13 @@
 package com.github.yang.idempotent.core.handler;
 
-public interface IdempotentHandler {
-    void handler();
+import com.github.yang.idempotent.api.annotation.Idempotent;
+import com.github.yang.idempotent.core.wrapper.IdempotentWrapper;
+import org.aspectj.lang.ProceedingJoinPoint;
 
-    void execute();
+public interface IdempotentHandler {
+    void handler(IdempotentWrapper wrapper);
+
+    void execute(ProceedingJoinPoint point, Idempotent idempotent);
 
     /**
      * 异常流程处理
@@ -18,4 +22,5 @@ public interface IdempotentHandler {
     default void postProcessing() {
 
     }
+
 }

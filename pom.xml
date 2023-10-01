@@ -11,6 +11,7 @@
     <modules>
         <module>idempotent-api</module>
         <module>idempotent-core</module>
+        <module>idempotent-test</module>
     </modules>
     <properties>
 
