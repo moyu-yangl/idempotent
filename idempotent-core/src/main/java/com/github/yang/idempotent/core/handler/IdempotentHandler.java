@@ -5,8 +5,19 @@ import com.github.yang.idempotent.core.wrapper.IdempotentWrapper;
 import org.aspectj.lang.ProceedingJoinPoint;
 
 public interface IdempotentHandler {
+    /**
+     * 实际幂等执行逻辑
+     *
+     * @param wrapper
+     */
     void handler(IdempotentWrapper wrapper);
 
+    /**
+     * 执行幂等校验
+     *
+     * @param point
+     * @param idempotent
+     */
     void execute(ProceedingJoinPoint point, Idempotent idempotent);
 
     /**

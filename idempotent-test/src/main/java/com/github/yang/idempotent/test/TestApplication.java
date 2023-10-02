@@ -10,8 +10,8 @@ public class TestApplication {
 
     public static void main(String[] args) {
         applicationContext = SpringApplication.run(TestApplication.class);
-        String[] name = getName();
-        System.out.println();
+//        String[] name = getName();
+//        System.out.println();
     }
 
     public static String[] getName() {

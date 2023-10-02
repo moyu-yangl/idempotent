@@ -9,10 +9,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IdempotentController {
 
-    @GetMapping("/idempotent/test")
+    @GetMapping("/idempotent/test/h")
     @Idempotent(type = IdempotentType.HTTP_REQUEST)
     public String idempotentTest() {
-        String[] name = TestApplication.getName();
+//        String[] name = TestApplication.getName();
+        System.out.println("幂等测试~~~~");
+        return "ok";
+    }
+
+    @GetMapping("/idempotent/test/m")
+    @Idempotent(type = IdempotentType.MESSAGE_QUEUE)
+    public String idempotentTest2() {
+//        String[] name = TestApplication.getName();
         System.out.println("幂等测试~~~~");
         return "ok";
     }
