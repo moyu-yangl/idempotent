@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/KeyContextHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/domain/TimeMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/OrdinaryMethodIdempotentHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/AbstractIdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/AbstractIdempotentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/HttpRequestIdempotentHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/HttpRequestIdempotentHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/MessageQueueIdempotentHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/MessageQueueIdempotentHandlerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/wrapper/IdempotentWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/domain/IdempotentWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/handler/IdempotentHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +29,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev" />
+        <entry key="$PROJECT_DIR$" value="dev-method" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -89,7 +78,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "actions.on.save",
-    "spring.configuration.checksum": "d5a8d419e7777ae46f5f279a48b18f6b",
+    "spring.configuration.checksum": "e2ff22b16c2976dc516a7200e5c6626f",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -124,13 +113,16 @@
       <list>
         <item itemvalue="Spring Boot.TestApplication (1)" />
         <item itemvalue="Spring Boot.TestApplication" />
+        <item itemvalue="Spring Boot.TestApplication (1)" />
+        <item itemvalue="Spring Boot.TestApplication" />
+        <item itemvalue="Spring Boot.TestApplication (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="" />
+      <changelist id="f3acb214-3a6a-4625-85ee-b71eb3a3aa71" name="变更" comment="" />
       <created>1696085560617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -138,6 +130,7 @@
       <workItem from="1696085561784" duration="172000" />
       <workItem from="1696126455682" duration="14852000" />
       <workItem from="1696218331425" duration="20837000" />
+      <workItem from="1696255262940" duration="350000" />
     </task>
     <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
       <created>1696130371983</created>
@@ -191,7 +184,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="feater-core" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>

@@ -1,3 +1,6 @@
 /idempotent-test/target/
 /idempotent-core/target/
 /idempotent-api/target/
+/idempotent.iml
+/idempotent-api/idempotent-api.iml
+/idempotent-core/idempotent-core.iml
