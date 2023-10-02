@@ -5,21 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/HttpRequestIdempotentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/MessageQueueIdempotentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/OrdinaryMethodIdempotentHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/HttpRequestIdempotentHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/MessageQueueIdempotentHandlerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/handler/IdempotentHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/KeyContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/domain/TimeMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/OrdinaryMethodIdempotentHandlerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/enums/IdempotentScope.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-api/src/main/java/com/github/yang/idempotent/api/enums/IdempotentScope.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/AbstractIdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/AbstractIdempotentHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/IdempotentHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/HttpRequestIdempotentHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/HttpRequestIdempotentHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/MessageQueueIdempotentHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/MessageQueueIdempotentHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/wrapper/IdempotentWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/domain/IdempotentWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/handler/IdempotentHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/handler/IdempotentHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +137,7 @@
       <updated>1696085560617</updated>
       <workItem from="1696085561784" duration="172000" />
       <workItem from="1696126455682" duration="14852000" />
-      <workItem from="1696218331425" duration="12468000" />
+      <workItem from="1696218331425" duration="20837000" />
     </task>
     <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
       <created>1696130371983</created>
@@ -168,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696222087662</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat(idempotent-core): 实现默认的http请求与mq请求的幂等接口">
+      <created>1696245387878</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696245387878</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +208,19 @@
     <MESSAGE value="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块" />
     <MESSAGE value="feat(idempotent-core): 加入幂等处理器的简单工厂模式类" />
     <MESSAGE value="feat(idempotent-core): 封装为stater，支持默认的幂等校验方式，保证开箱即用" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core): 封装为stater，支持默认的幂等校验方式，保证开箱即用" />
+    <MESSAGE value="feat(idempotent-core): 实现默认的http请求与mq请求的幂等接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core): 实现默认的http请求与mq请求的幂等接口" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/handler/impl/OrdinaryMethodIdempotentHandlerImpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

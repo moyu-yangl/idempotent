@@ -24,4 +24,11 @@ public class IdempotentController {
         System.out.println("幂等测试~~~~");
         return "ok";
     }
+
+    @GetMapping("/idempotent/test/o")
+    @Idempotent(type = IdempotentType.ORDINARY_METHOD)
+    public String idempotentTest3() {
+        System.out.println("方法 幂等测试~~~~");
+        return "ok";
+    }
 }

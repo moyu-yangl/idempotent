@@ -1,7 +1,7 @@
 package com.github.yang.idempotent.core.handler;
 
 import com.github.yang.idempotent.api.annotation.Idempotent;
-import com.github.yang.idempotent.core.wrapper.IdempotentWrapper;
+import com.github.yang.idempotent.core.domain.IdempotentWrapper;
 import org.aspectj.lang.ProceedingJoinPoint;
 
 public interface IdempotentHandler {
