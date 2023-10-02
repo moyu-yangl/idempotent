@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/config/IdempotentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/factory/IdempotentHandlerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +83,12 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "actions.on.save",
+    "spring.configuration.checksum": "d5a8d419e7777ae46f5f279a48b18f6b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.TestApplication (1)">
+    <configuration name="TestApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="idempotent-test" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yang.idempotent.test.TestApplication" />
       <extension name="coverage">
@@ -95,8 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="idempotent-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.yang.idempotent.core.TestApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.yang.idempotent.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.TestApplication (1)" />
         <item itemvalue="Spring Boot.TestApplication" />
       </list>
     </recent_temporary>
@@ -110,7 +130,8 @@
       <option name="presentableId" value="Default" />
       <updated>1696085560617</updated>
       <workItem from="1696085561784" duration="172000" />
-      <workItem from="1696126455682" duration="13839000" />
+      <workItem from="1696126455682" duration="14852000" />
+      <workItem from="1696218331425" duration="3584000" />
     </task>
     <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
       <created>1696130371983</created>
@@ -126,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696144795534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat(idempotent-core): 加入幂等处理器的简单工厂模式类">
+      <created>1696152528464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696152528464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +186,24 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(idempotent-api): 完成了注解、枚举类的开发" />
     <MESSAGE value="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core，idempotent-test): 进行了aop功能配置；添加一个测试模块" />
+    <MESSAGE value="feat(idempotent-core): 加入幂等处理器的简单工厂模式类" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core): 加入幂等处理器的简单工厂模式类" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/controller/IdempotentController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/TestApplication.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
