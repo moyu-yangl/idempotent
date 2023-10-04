@@ -13,7 +13,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 @Aspect
-@Configuration
 public class IdempotentAspect {
 
     @Around("@annotation(idempotent)")

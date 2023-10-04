@@ -10,7 +10,6 @@ import org.springframework.stereotype.Component;
 import java.lang.annotation.Annotation;
 import java.util.Map;
 
-@Configuration
 public class ApplicationContextHolder implements ApplicationContextAware {
 
     private static ApplicationContext CONTEXT;

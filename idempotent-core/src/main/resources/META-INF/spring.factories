@@ -1,3 +1,3 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.github.yang.idempotent.core.aspect.IdempotentAspect,\
-com.github.yang.idempotent.core.context.ApplicationContextHolder
+com.github.yang.idempotent.core.config.IdempotentConfig
+#com.github.yang.idempotent.core.context.ApplicationContextHolder

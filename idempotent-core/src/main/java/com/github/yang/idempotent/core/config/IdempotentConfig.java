@@ -1,6 +1,7 @@
-package com.github.yang.idempotent.test.config;
+package com.github.yang.idempotent.core.config;
 
-
+import com.github.yang.idempotent.core.aspect.IdempotentAspect;
+import com.github.yang.idempotent.core.context.ApplicationContextHolder;
 import com.github.yang.idempotent.core.handler.HttpRequestIdempotentHandler;
 import com.github.yang.idempotent.core.handler.MessageQueueIdempotentHandler;
 import com.github.yang.idempotent.core.handler.OrdinaryMethodIdempotentHandler;
@@ -10,23 +11,30 @@ import com.github.yang.idempotent.core.handler.impl.OrdinaryMethodIdempotentHand
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-//@Configuration
+@Configuration
 public class IdempotentConfig {
+    @Bean
+    public IdempotentAspect idempotentAspect() {
+        return new IdempotentAspect();
+    }
 
-    //    @Bean
+    @Bean
     public HttpRequestIdempotentHandler httpRequestIdempotentHandler() {
         return new HttpRequestIdempotentHandlerImpl();
     }
 
-    //    @Bean
+    @Bean
     public MessageQueueIdempotentHandler messageQueueIdempotentHandler() {
         return new MessageQueueIdempotentHandlerImpl();
     }
 
-    //    @Bean
+    @Bean
     public OrdinaryMethodIdempotentHandler ordinaryMethodIdempotentHandler() {
         return new OrdinaryMethodIdempotentHandlerImpl();
     }
+
+    @Bean
+    public ApplicationContextHolder applicationContextHolder() {
+        return new ApplicationContextHolder();
+    }
 }
-
-

@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/config/IdempotentConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/aspect/IdempotentAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/java/com/github/yang/idempotent/core/context/ApplicationContextHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-core/src/main/resources/META-INF/spring.factories" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-core/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/idempotent-test/src/main/java/com/github/yang/idempotent/test/config/IdempotentConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev-method" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,7 +82,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "actions.on.save",
-    "spring.configuration.checksum": "e2ff22b16c2976dc516a7200e5c6626f",
+    "spring.configuration.checksum": "d5a8d419e7777ae46f5f279a48b18f6b",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -122,7 +126,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="f3acb214-3a6a-4625-85ee-b71eb3a3aa71" name="变更" comment="" />
+      <changelist id="6dbab22d-4170-4d5b-8bc7-e6a974cd63c0" name="变更" comment="" />
       <created>1696085560617</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -130,7 +134,8 @@
       <workItem from="1696085561784" duration="172000" />
       <workItem from="1696126455682" duration="14852000" />
       <workItem from="1696218331425" duration="20837000" />
-      <workItem from="1696255262940" duration="350000" />
+      <workItem from="1696255262940" duration="822000" />
+      <workItem from="1696408949197" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="feat(idempotent-api): 完成了注解、枚举类的开发">
       <created>1696130371983</created>
@@ -167,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696245387878</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: 幂等校验的初步开发完成，提供默认的普通方法幂等校验，http请求、消息队列请求可以通过实现接口与抽象类注册成Bean进行自定制">
+      <created>1696255752106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696255752106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,7 +214,8 @@
     <MESSAGE value="feat(idempotent-core): 加入幂等处理器的简单工厂模式类" />
     <MESSAGE value="feat(idempotent-core): 封装为stater，支持默认的幂等校验方式，保证开箱即用" />
     <MESSAGE value="feat(idempotent-core): 实现默认的http请求与mq请求的幂等接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(idempotent-core): 实现默认的http请求与mq请求的幂等接口" />
+    <MESSAGE value="feat: 幂等校验的初步开发完成，提供默认的普通方法幂等校验，http请求、消息队列请求可以通过实现接口与抽象类注册成Bean进行自定制" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 幂等校验的初步开发完成，提供默认的普通方法幂等校验，http请求、消息队列请求可以通过实现接口与抽象类注册成Bean进行自定制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
